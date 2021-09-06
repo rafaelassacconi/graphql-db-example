@@ -6,7 +6,7 @@ sqlite3 database.db < create.sql
 node index.js
 ```
 
-### To add a user:
+### To add user:
 ```
 mutation {
   addUser(data: { name: "Ana" }) {
